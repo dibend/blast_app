@@ -21,7 +21,7 @@ import UIKit
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: "https://blastnotifications.com")!
+        let url = URL(string: "https://blastnotifications.com/notifications")!
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
         // Do any additional setup after loading the view, typically from a nib.
